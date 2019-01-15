@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ </head>
+ <body>
+  <!--6x6 table: upper left empty, all others non-empty, caption detailing contents, header row w/ bold, header column italic, 7th footer row 2 col & 4 col-->
+    <!--extra credit: non-header rows alternate colors-->
+    <table>
+        <caption></caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+  <!--list with at least three entries-->
+    <dl>
+        <dt>M. John Harrison</dt>
+        <dd>The Centauri Device</dd>
+        <dt>Paul J. McAuley</dt>
+        <dd>Child of the River</dd>
+        <dt>Anne Leckie</dt>
+        <dd>Ancillary Justice</dd>
+    </dl>
+
+  <!--div: aligned left, 75% page width, 20px top margin, class='outer-content', background-color=pink-->
+    <!--div: 75% parent div's width, centered, called 'inner-content', background-color=blue-->
+    <div class='outer-content'>
+        <div class='inner-content'>
+
+        </div>
+    </div>
+  
+  <!--two forms: one POST, one GET, submit to: http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php, 4 input types-->
+    <!--text input: name='text_input', number input: name='numerical_input', password input: name='password_input', radio inputs: name='candy' options={'Snickers', 'Skittles', 'Mentos'}-->
+    <form action='http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php' method='post'>
+        <fieldset>
+            <legend></legend>
+            <label>
+                <input type='text' name='text_input' size='49' maxlength="154">
+            </label><br />
+            <label>
+                <input type='number' name='numerical_input' size='49' maxlength="154">
+            </label><br />
+            <label>
+                <input type='password' name='password_input' size='49' maxlength="154">
+            </label><br />
+            <p>Which is the greatest candy?</p>
+            <label>
+                <input type='radio' name='candy' value='Snickers'>Snickers
+            </label>            
+            <label>
+                <input type='radio' name='candy' value='Skittles'>Skittles
+            </label>
+            <label>
+                <input type='radio' name='candy' value='Mentos'>Mentos
+            </label>
+
+        </fieldset>
+    </form>
+
+ </body>
+</html>
